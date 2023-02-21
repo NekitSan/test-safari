@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/test-safari/",
+  "homepage": "/test-safari/",
   "private": true,
   "scripts": {
     "build": "nuxt build",

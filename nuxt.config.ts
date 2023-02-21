@@ -12,7 +12,7 @@ export default {
       mode: 'hash'
     },
     build: {
-      publicPath: 'https://nekitsan.github.io/test-safari/',
+      publicPath: '/test-safari/',
     },
     generate: {
       fallback: "404.html",
