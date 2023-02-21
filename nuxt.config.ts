@@ -8,7 +8,7 @@ export default {
     },
     router: {
       trailingSlash: true,
-      base: './test-safari/',
+      base: '/test-safari/',
       mode: 'hash'
     },
     build: {

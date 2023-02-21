@@ -6,8 +6,7 @@
     "generate": "node generate.js && nuxt generate -c nuxt.config.ts",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "start": "nuxt start",
-    "test": "node generate.js"
+    "start": "nuxt start"
   },
   "devDependencies": {
     "nuxt": "^3.2.2"
