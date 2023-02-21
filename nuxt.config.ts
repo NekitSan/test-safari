@@ -8,16 +8,14 @@ export default {
     },
     router: {
       trailingSlash: true,
-      base: './',
+      base: './test-safari/',
       mode: 'hash'
     },
-    publicPath: 'https://nekitsan.github.io/test-safari/',
     build: {
       publicPath: 'https://nekitsan.github.io/test-safari/',
     },
     generate: {
       fallback: "404.html",
-      publicPath: 'https://nekitsan.github.io/test-safari/',
     },
     head: {
       meta: [
