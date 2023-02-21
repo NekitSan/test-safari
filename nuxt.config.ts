@@ -8,8 +8,10 @@ export default {
     },
     router: {
       trailingSlash: true,
-      base: '/'
+      base: './',
+      mode: 'hash'
     },
+    publicPath: 'https://nekitsan.github.io/test-safari/',
     build: {
       publicPath: 'https://nekitsan.github.io/test-safari/',
     },
@@ -30,23 +32,7 @@ export default {
           href: "/favicon.ico",
         },
       ],
-      script: [
-        {
-          src: "https://www.googletagmanager.com/gtag/js?id=G-CR726YQ76L",
-        },
-        {
-          innerHTML: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag("js", new Date());
-          gtag("config", "G-CR726YQ76L");
-          `,
-        },
-      ],
-      __dangerouslyDisableSanitizers: ["script"],
     },
     plugins: [],
     modules: [],
-    
-    build: { extend(config, ctx) {} },
 }
