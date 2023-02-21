@@ -35,4 +35,8 @@ function getAlert() {
   justify-content: center;
   align-items: center;
 }
+
+.accent__text {
+  cursor: pointer;
+}
 </style>
