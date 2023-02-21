@@ -1,5 +1,5 @@
 {
-  "homepage": "/test-safari/",
+  "homepage": ".",
   "private": true,
   "scripts": {
     "build": "nuxt build",

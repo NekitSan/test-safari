@@ -8,11 +8,6 @@ export default {
     },
     router: {
       trailingSlash: true,
-      base: '/test-safari/',
-      mode: 'hash'
-    },
-    build: {
-      publicPath: '/test-safari/',
     },
     generate: {
       fallback: "404.html",
